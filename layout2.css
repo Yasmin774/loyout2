@@ -1,0 +1,42 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(219, 205, 7);
+    width: 100vw;
+    height: 10vh;
+}
+
+div {
+    display: flex;
+}
+
+main {
+    height: 90vh;
+    width: 80vw;
+    background-color: rgb(138, 219, 7);
+}
+
+.direita {
+    height: 90vh;
+    width: 20vw;
+    background-color: rgb(230, 222, 112);
+}
+
+/* Media query */
+@media (max-width: 600px) {
+    .direita {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+}
+
+
+
